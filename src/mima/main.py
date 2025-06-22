@@ -574,4 +574,4 @@ def _not_found(title: str, msg: str):
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run("tooba.main:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("mima.main:app", host="0.0.0.0", port=8000, reload=True)
